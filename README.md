@@ -28,3 +28,19 @@ https://forms.gle/WqUG5dZGxbhg8suC7
 公開URL:
 
 https://labsite-roan.vercel.app
+
+## Vercel と GitHub を連携する手順
+
+Vercel の GitHub 連携で `KITNAMALAB/LABSITE` へのアクセス許可が必要です。
+
+1. Vercel の `labsite` プロジェクトを開きます。
+2. `Settings` → `Git` を開きます。
+3. GitHub 連携で `KITNAMALAB/LABSITE` を選びます。
+4. GitHub 側で Vercel App のアクセス許可を求められたら、このリポジトリを許可します。
+5. 以後、GitHub の `main` ブランチに push すると自動で公開されます。
+
+CLI で接続する場合:
+
+```powershell
+vercel git connect https://github.com/KITNAMALAB/LABSITE.git
+```

@@ -458,7 +458,7 @@ h3 {
   overflow: hidden;
   max-width: 300px;
   border: 1px solid var(--line);
-  border-radius: 18px;
+  border-radius: 28px;
   box-shadow: var(--shadow);
 }
 
@@ -571,7 +571,7 @@ h3 {
   aspect-ratio: 1 / 1;
   object-fit: cover;
   border: 1px solid var(--line);
-  border-radius: 18px;
+  border-radius: 28px;
   box-shadow: var(--shadow);
 }
 

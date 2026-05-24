@@ -139,6 +139,14 @@ section[id] {
   grid-column: 1 / -1;
 }
 
+.hero > .eyebrow {
+  margin-bottom: 0;
+}
+
+.hero > h1 {
+  white-space: nowrap;
+}
+
 .eyebrow,
 .section-kicker {
   margin: 0 0 12px;
@@ -1178,6 +1186,10 @@ h3 {
   .hero > .eyebrow,
   .hero > h1 {
     grid-column: auto;
+  }
+
+  .hero > h1 {
+    white-space: normal;
   }
 
   .event-summary {

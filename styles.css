@@ -179,7 +179,7 @@ h3 {
 .hero-subtitle {
   margin-bottom: 16px;
   color: var(--green);
-  font-size: 30px;
+  font-size: 34px;
   font-weight: 800;
   line-height: 1.55;
 }
@@ -1242,7 +1242,7 @@ h3 {
   }
 
   .hero-subtitle {
-    font-size: 20px;
+    font-size: 22px;
     line-height: 1.42;
   }
 

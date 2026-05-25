@@ -295,6 +295,17 @@ h3 {
   box-shadow: var(--shadow);
 }
 
+.poster-message {
+  padding: 14px 16px;
+  color: var(--blue-dark);
+  background: linear-gradient(135deg, #e9f7ef 0%, #edf7ff 100%);
+  border-bottom: 1px solid var(--line);
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.45;
+  text-align: center;
+}
+
 .poster-card img {
   width: 100%;
   aspect-ratio: 16 / 9;
@@ -1369,6 +1380,11 @@ h3 {
   .poster-card img {
     width: 100%;
     height: auto;
+  }
+
+  .poster-message {
+    padding: 12px 14px;
+    font-size: 16px;
   }
 
   .event-summary div,

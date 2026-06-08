@@ -11,7 +11,8 @@ https://kitnamalab.github.io/LABSITE/
 ## 現在の方針
 
 - Vercel の公開版 `https://labsite-roan.vercel.app` はそのまま維持する。
-- GitHub Pages は、最終確認が終わるまで有効化しない。
+- GitHub Pages を正式URLとして公開する。
+- Vercel 版はサイト本体を表示せず、GitHub Pages へリダイレクトする。
 - GitHub Pages 公開時も、サイト本体は静的な `index.html` / `styles.css` / `assets/` をそのまま使う。
 - GitHub Pages で Jekyll 処理が入らないように `.nojekyll` を置く。
 

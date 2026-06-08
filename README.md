@@ -29,6 +29,16 @@ https://forms.gle/WqUG5dZGxbhg8suC7
 
 https://labsite-roan.vercel.app
 
+## GitHub Pages への移行準備
+
+Vercel 版を維持したまま、GitHub Pages で同じ静的サイトを公開する準備もできます。
+
+想定URL:
+
+https://kitnamalab.github.io/LABSITE/
+
+詳しい手順は `GITHUB_PAGES_SETUP.md` を参照してください。
+
 ## Vercel と GitHub を連携する手順
 
 Vercel の GitHub 連携で `KITNAMALAB/LABSITE` へのアクセス許可が必要です。

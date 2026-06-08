@@ -1238,8 +1238,21 @@ h3 {
   grid-template-columns: minmax(0, 1fr) 170px;
   gap: 28px;
   align-items: center;
+  padding-top: 34px;
+  padding-bottom: 29px;
+  color: var(--blue-dark);
   background:
-    linear-gradient(135deg, rgba(8, 55, 122, 0.94), rgba(21, 146, 58, 0.84));
+    linear-gradient(135deg, #f4fff4 0%, #c9f3cf 38%, #b9e9ff 100%);
+  border-top: 4mm solid #49ad61;
+  border-bottom: 4mm solid #49ad61;
+}
+
+.simple-report-hero h1 {
+  color: var(--blue-dark);
+}
+
+.simple-report-hero .eyebrow {
+  color: var(--green-dark);
 }
 
 .simple-report-hero img {

@@ -669,6 +669,31 @@ h3 {
   vertical-align: 0.12em;
 }
 
+.flower-new-badge {
+  gap: 4px;
+  color: #fff;
+  background: #b52f61;
+  border-radius: 999px;
+  white-space: nowrap;
+  animation: flower-new-pulse 2.4s ease-in-out infinite;
+}
+
+.flower-new-badge > span {
+  font-size: 18px;
+  line-height: 1;
+}
+
+@keyframes flower-new-pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.55; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flower-new-badge {
+    animation: none;
+  }
+}
+
 .news-panels {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
